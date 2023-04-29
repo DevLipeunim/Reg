@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!----===== Iconscout CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <title>Responsive Regisration Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>Registration</header>
+
+      <form action="#">
+        <div class="form first">
+          <div class="details personal">
+            <!-- <span class="title">Personal Details</span> -->
+            <div class="fields">
+              <div class="input-field">
+                <label>Name:</label>
+                <input type="text"  />
+              </div>
+
+              <div class="input-field">
+                <label>Age / Sex:</label>
+                <input type="text"  />
+              </div>
+
+              <div class="input-field">
+                <label>UHID No:</label>
+                <input type="number"  />
+              </div>
+            </div>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>Name of surgery / procedure:</label>
+                <input type="text"  />
+              </div>
+
+              <div class="input-field">
+                <label>Name of surgeon:</label>
+                <input type="text"  />
+              </div>
+
+              <div class="input-field">
+                <label>Type of Anaesthesia:</label>
+                <input type="text"  />
+              </div>
+
+              <div class="input-field">
+                <label>Name of Anaesthetist:</label>
+                <input type="text"  />
+              </div>
+
+              <div class="input-field">
+                <label>To shift to OR at:</label>
+                <input type="text"  />
+              </div>
+
+              <div class="input-field">
+                <label>On (Date):</label>
+                <input type="text"  />
+              </div>
+            </div>
+          </div>
+
+          <div class="details ID">
+            <div class="fields">
+              <div class="input-field">
+                <label>ID Band checked:</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>Site marking done:</label>
+                <div class="check">
+                  <label for="checkbox3">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox3"
+                    name="checkbox2"
+                    value="option2"
+                  />
+                  <label for="checkbox4">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox4"
+                    name="checkbox2"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>Nill Per oral:</label>
+                <div class="check">
+                  <label for="checkbox5">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox5"
+                    name="checkbox3"
+                    value="option3"
+                  />
+                  <label for="checkbox6">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox6"
+                    name="checkbox3"
+                    value="option3"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <span class="title">Reports enclosed</span>
+            <div class="fields">
+              <div class="input-field">
+                <label>Latest ECG:</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>ABG:</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>ANGIO:</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>RECENT X-RAY:</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>All reports attached / file complete:</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <span class="title">Consent Signed</span>
+            <div class="fields">
+              <div class="input-field">
+                <label>1. By Patient</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>2. By Surgeon</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>3. By Anaesthetist</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <span class="title">PAC Done</span>
+            <div class="fields">
+              <div class="input-field">
+                <label>Shaving / clipping done</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>Denture removed</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>Hair pin removed</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>Other prosthesis removed</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>Jewellery removed</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>Lipstick / nailpolish removed</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>Contact lenses removed</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>Double plait hair (f)</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>Any other device on patient</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>Removed undergarment</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>Serology: HIV</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label>Status: HCV</label>
+                <div class="check">
+                  <label for="checkbox1">Yes:</label>
+                  <input
+                    type="radio"
+                    id="checkbox1"
+                    name="checkbox1"
+                    value="option1"
+                  />
+                  <label for="checkbox2">No:</label>
+                  <input
+                    type="radio"
+                    id="checkbox2"
+                    name="checkbox1"
+                    value="option2"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <span class="title">WARD NURSE / ICU NURSE</span>
+            <div class="fields">
+              <div class="input-field">
+                <label>Name:</label>
+                <input type="text"  />
+              </div>
+
+              <div class="input-field">
+                <label>ID No:</label>
+                <input type="text"  />
+              </div>
+
+              <div class="input-field">
+                <label>Signature:</label>
+                <input type="text"  />
+              </div>
+
+              <div class="input-field">
+                <label>Date:</label>
+                <input type="date"  />
+              </div>
+
+              <div class="input-field">
+                <label>Time:</label>
+                <input type="time"  />
+              </div>
+            </div>
+
+            <button class="nextBtn">
+              <span class="btnText">Next</span>
+              <i class="uil uil-navigator"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="form second">
+          <div class="details address">
+            <!-- <span class="title">Address Details</span> -->
+
+            <div class="fields">
+              <div class="input-field">
+                <label>Vital parameters at</label>
+                <input
+                  type="text"
+                  placeholder="what hours"
+                  
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Temp</label>
+                <input type="text" placeholder="Enter nationality"  />
+              </div>
+
+              <div class="input-field">
+                <label>BP</label>
+                <input type="text" placeholder="Enter your state"  />
+              </div>
+
+              <div class="input-field">
+                <label>Resp</label>
+                <input type="text" placeholder="Enter your district"  />
+              </div>
+
+              <div class="input-field">
+                <label>Pulse</label>
+                <input
+                  type="number"
+                  placeholder="Enter block number"
+                  
+                />
+              </div>
+
+              <div class="input-field">
+                <label>sp02</label>
+                <input type="number" placeholder="Enter ward number"  />
+              </div>
+            </div>
+          </div>
+
+          <div class="details family">
+            <span class="title">Pre Medications:</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>1.</label>
+                <input type="text" placeholder="Include location also"  />
+              </div>
+
+              <div class="input-field">
+                <label>2.</label>
+                <input type="text" placeholder="Include location also"  />
+              </div>
+
+              <div class="input-field">
+                <label>3.</label>
+                <input
+                  type="text"
+                  placeholder="Include location also"
+                  
+                />
+              </div>
+            </div>
+
+            <div class="fields">
+                <div class="input-field">
+                  <label>Blood Groups:</label>
+                  <input
+                    type="text"
+                    placeholder="what hours"
+                    
+                  />
+                </div>
+  
+                <div class="input-field">
+                  <label>Rh::</label>
+                  <input type="text" placeholder="Enter nationality"  />
+                </div>
+  
+                <div class="input-field">
+                  <label>Blood reqd:</label>
+                  <input type="text" placeholder="Enter your state"  />
+                </div>
+  
+                <div class="input-field">
+                  <label>Cross Matched:</label>
+                  <input type="text" placeholder="Enter your district"  />
+                </div>
+  
+                <div class="input-field">
+                  <label>Blood available:</label>
+                  <input
+                    type="number"
+                    placeholder="Enter block number"
+                    
+                  />
+                </div>
+  
+                <div class="input-field">
+                  <label>PRBC</label>
+                  <input type="number" placeholder="Enter ward number"  />
+                </div>
+
+                <div class="input-field">
+                    <label>Units</label>
+                    <input type="number" placeholder="Enter ward number"  />
+                </div>
+
+                <div class="input-field">
+                    <label>FFP</label>
+                    <input type="number" placeholder="Enter ward number"  />
+                </div>
+    
+                <div class="input-field">
+                    <label>Units</label>
+                    <input type="number" placeholder="Enter ward number"  />
+                </div>
+
+                <div class="input-field">
+                    <label>Platelets</label>
+                    <input type="number" placeholder="Enter ward number"  />
+                </div>
+
+                <div class="input-field">
+                    <label>Units</label>
+                    <input type="number" placeholder="Enter ward number"  />
+                </div>
+              </div>
+
+
+              <div class="fields">
+                <div class="input-field">
+                  <label>Known allergies:</label>
+                  <input
+                    type="text"
+                    placeholder="what hours"
+                    
+                  />
+                </div>
+  
+                <div class="input-field">
+                  <label>Reasons for late shifting:</label>
+                  <input type="text" placeholder="Enter nationality"  />
+                </div>
+              </div>
+
+              <div class="fields">
+                <div class="input-field">
+                  <label>Betadine Wash / Bath</label>
+                  <div class="check">
+                    <label for="checkbox1">Yes:</label>
+                    <input
+                      type="radio"
+                      id="checkbox1"
+                      name="checkbox1"
+                      value="option1"
+                    />
+                    <label for="checkbox2">No:</label>
+                    <input
+                      type="radio"
+                      id="checkbox2"
+                      name="checkbox1"
+                      value="option2"
+                    />
+                  </div>
+                </div>
+  
+                <div class="input-field">
+                  <label>Chlorhexidine mouth wash done</label>
+                  <div class="check">
+                    <label for="checkbox1">Yes:</label>
+                    <input
+                      type="radio"
+                      id="checkbox1"
+                      name="checkbox1"
+                      value="option1"
+                    />
+                    <label for="checkbox2">No:</label>
+                    <input
+                      type="radio"
+                      id="checkbox2"
+                      name="checkbox1"
+                      value="option2"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="fields">
+                <div class="input-field">
+                  <label>HbsAg:</label>
+                  <div class="check">
+                    <label for="checkbox1">Yes:</label>
+                    <input
+                      type="radio"
+                      id="checkbox1"
+                      name="checkbox1"
+                      value="option1"
+                    />
+                    <label for="checkbox2">No:</label>
+                    <input
+                      type="radio"
+                      id="checkbox2"
+                      name="checkbox1"
+                      value="option2"
+                    />
+                  </div>
+                </div>
+              </div>
+
+            <span class="title">OT NURSE</span>
+            <div class="fields">
+              <div class="input-field">
+                <label>Name:</label>
+                <input type="text"  />
+              </div>
+
+              <div class="input-field">
+                <label>ID No:</label>
+                <input type="text"  />
+              </div>
+
+              <div class="input-field">
+                <label>Signature:</label>
+                <input type="text"  />
+              </div>
+
+              <div class="input-field">
+                <label>Date:</label>
+                <input type="date"  />
+              </div>
+
+              <div class="input-field">
+                <label>Time:</label>
+                <input type="time"  />
+              </div>
+            </div>
+  
+
+            <div class="buttons">
+              <div class="backBtn">
+                <i class="uil uil-navigator"></i>
+                <span class="btnText">Back</span>
+              </div>
+
+              <button class="sumbit">
+                <span class="btnText">Submit</span>
+                <i class="uil uil-navigator"></i>
+              </button>
+            </div>
+          </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
